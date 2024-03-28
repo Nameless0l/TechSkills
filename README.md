@@ -5,8 +5,8 @@
 
 ## Authors
 
-- [@Kamdem-Ivan](https://www.github.com/KpihX)
-- [@Kamte-Armel](https://www.github.com/KamgaBrayan)
+- [@Kamdem-Ivann](https://www.github.com/KpihX)
+- [@Kuate-Armel](https://www.github.com/KamgaBrayan)
 - [@Mbassi-Loic-Aron](https://www.github.com/Namelessl0l)
 - [@Nomo-Gabriel](https://www.github.com/NOMO-Gabriel)
 
