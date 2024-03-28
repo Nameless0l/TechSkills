@@ -86,4 +86,4 @@ http://localhost:300x/ où x est un nombre entre 0 et 9
 
 ## Feedback
 
-Si vous avez une question, n'importe laquelle ecrire a l'un des memebres de l'équipe
+Si vous avez une question, n'importe laquelle ecrire a l'un des membres de l'équipe
