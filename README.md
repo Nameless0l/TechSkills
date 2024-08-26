@@ -60,6 +60,18 @@ Installer les dependances necessaires pour le projet
     composer install
 ```
 
+Dupliquer le fichier ` .env.example` et renommer le en `.env`
+
+Dans ce nouveau fichier insérer les infos de connexion de votre BD
+
+Pour le cas basique de sqlite, il n'y aura rien à faire 
+
+Puis il faut exacuter la commande
+
+`php artisan migrate`
+
+en vue d'initialiser la BD
+
 #### Lancer votre server local
 
 ```bash
@@ -82,7 +94,7 @@ git clone -b Front-App https://github.com/Nameless0l/TechSkills.git front
 ```
 
 ```bash
-cd front puis cd Front-App et enfi code .
+cd front puis cd front-app et enfi code .
 ```
 
 Installer les dependances necessaires pour le projet
