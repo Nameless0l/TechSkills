@@ -2,11 +2,11 @@
 
 namespace App\Http\Controllers;
 
-use App\Models\Picture;
-use App\Http\Requests\StorePictureRequest;
-use App\Http\Requests\UpdatePictureRequest;
+use App\Models\TestRessource;
+use App\Http\Requests\StoreTestRessourceRequest;
+use App\Http\Requests\UpdateTestRessourceRequest;
 
-class PictureController extends Controller
+class TestRessourceController extends Controller
 {
     /**
      * Display a listing of the resource.
@@ -21,7 +21,7 @@ class PictureController extends Controller
     /**
      * Store a newly created resource in storage.
      */
-    public function store(StorePictureRequest $request)
+    public function store(StoreTestRessourceRequest $request)
     {
         //
     }
@@ -29,7 +29,7 @@ class PictureController extends Controller
     /**
      * Display the specified resource.
      */
-    public function show(Picture $picture)
+    public function show(TestRessource $testRessource)
     {
         //
     }
@@ -37,7 +37,7 @@ class PictureController extends Controller
     /**
      * Show the form for editing the specified resource.
      */
-    public function edit(Picture $picture)
+    public function edit(TestRessource $testRessource)
     {
         //
     }
@@ -45,7 +45,7 @@ class PictureController extends Controller
     /**
      * Update the specified resource in storage.
      */
-    public function update(UpdatePictureRequest $request, Picture $picture)
+    public function update(UpdateTestRessourceRequest $request, TestRessource $testRessource)
     {
         //
     }
@@ -53,7 +53,7 @@ class PictureController extends Controller
     /**
      * Remove the specified resource from storage.
      */
-    public function destroy(Picture $picture)
+    public function destroy(TestRessource $testRessource)
     {
         //
     }

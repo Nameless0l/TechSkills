@@ -11,7 +11,7 @@ class StoreEditorRequest extends FormRequest
      */
     public function authorize(): bool
     {
-        return false;
+        return true;
     }
 
     /**
@@ -22,7 +22,9 @@ class StoreEditorRequest extends FormRequest
     public function rules(): array
     {
         return [
-            //
+            'biography'=>['nullable'],
+            'socialNetworks'=>['string'],
+            'user_id'=>['required']
         ];
     }
 }

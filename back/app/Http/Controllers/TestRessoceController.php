@@ -2,11 +2,11 @@
 
 namespace App\Http\Controllers;
 
-use App\Models\Topic;
-use App\Http\Requests\StoreTopicRequest;
-use App\Http\Requests\UpdateTopicRequest;
+use App\Models\TestRessoce;
+use App\Http\Requests\StoreTestRessoceRequest;
+use App\Http\Requests\UpdateTestRessoceRequest;
 
-class TopicController extends Controller
+class TestRessoceController extends Controller
 {
     /**
      * Display a listing of the resource.
@@ -16,12 +16,10 @@ class TopicController extends Controller
         //
     }
 
-
-
     /**
      * Store a newly created resource in storage.
      */
-    public function store(StoreTopicRequest $request)
+    public function store(StoreTestRessoceRequest $request)
     {
         //
     }
@@ -29,15 +27,7 @@ class TopicController extends Controller
     /**
      * Display the specified resource.
      */
-    public function show(Topic $topic)
-    {
-        //
-    }
-
-    /**
-     * Show the form for editing the specified resource.
-     */
-    public function edit(Topic $topic)
+    public function show(TestRessoce $testRessoce)
     {
         //
     }
@@ -45,7 +35,7 @@ class TopicController extends Controller
     /**
      * Update the specified resource in storage.
      */
-    public function update(UpdateTopicRequest $request, Topic $topic)
+    public function update(UpdateTestRessoceRequest $request, TestRessoce $testRessoce)
     {
         //
     }
@@ -53,7 +43,7 @@ class TopicController extends Controller
     /**
      * Remove the specified resource from storage.
      */
-    public function destroy(Topic $topic)
+    public function destroy(TestRessoce $testRessoce)
     {
         //
     }

@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Http\Resources\EditorResource;
 use App\Models\Editor;
 use App\Http\Requests\StoreEditorRequest;
 use App\Http\Requests\UpdateEditorRequest;
@@ -13,16 +14,10 @@ class EditorController extends Controller
      */
     public function index()
     {
-        //
+        return EditorResource::collection(Editor::all());
     }
 
-    /**
-     * Show the form for creating a new resource.
-     */
-    public function create()
-    {
-        //
-    }
+
 
     /**
      * Store a newly created resource in storage.
